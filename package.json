@@ -1,0 +1,16 @@
+{
+  "name": "trpc-subscription-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:node": "REACT_APP_SERVER=node bun --filter '*' start:dev",
+    "start:hono": "REACT_APP_SERVER=hono bun --filter '*' start:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "apps/*"
+  ]
+}

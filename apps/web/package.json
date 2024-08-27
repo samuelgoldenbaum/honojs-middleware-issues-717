@@ -1,0 +1,36 @@
+{
+  "name": "trpc-subscription-demo-client",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@trpc/client": "^11.0.0-rc.485",
+    "@types/node": "^16.18.106",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "superjson": "^2.2.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "start:dev": "GENERATE_SOURCEMAP=false PORT=8080 react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
